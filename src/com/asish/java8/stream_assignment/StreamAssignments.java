@@ -39,10 +39,10 @@ public class StreamAssignments {
                 .forEach(System.out::println);
 
         // 4.	Find out the newsId which has received maximum comments.
-        System.out.println(TestData.getAllNews()
-                .stream()
-                .max(Comparator.comparing(News::getComment))
-                .get());
+//        System.out.println(TestData.getAllNews()
+//                .stream()
+//                .max(Comparator.comparing(News::getComment))
+//                .get());
 
         //
     }
